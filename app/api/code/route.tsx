@@ -3,11 +3,11 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
+const OPENAI_API_KEY = 'sk-proj-DBHMpUg4AVX3aJO5qKRCT3BlbkFJDXjpfRSDRFI8D1eejxIq';
 
 const openai = new OpenAI({
-    apiKey : process.env.OPENAI_API_KEY,
+    apiKey : OPENAI_API_KEY
 });
-
 
 
 
